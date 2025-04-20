@@ -29,7 +29,7 @@ conda activate myntra_scrapper
 pip install -r requirements.txt
 
 ## ⚙️ Configuration
-###🔐 MongoDB Atlas Setup
+### 🔐 MongoDB Atlas Setup
 Update the connection string in mongo_operation.py: 
 from pymongo import MongoClient
 import certifi
@@ -41,14 +41,47 @@ self.client = MongoClient(
 
 Or load the MongoDB URL from .env using python-dotenv.
 
-##▶️ Running the App
+## ▶️ Running the App
 streamlit run app.py
 (in terminal)
 
 This will launch the web app in your browser.
 
+## 📁 Project Structure
+Myntra_Scrapper_Project/
+│
+├── src/                      # Core Python modules (MongoDB IO, constants, exception handling)
+├── pages/                    # Streamlit multipage app components
+├── templates/                # HTML templates (if any)
+├── static/css/               # Custom CSS for Streamlit styling
+│
+├── app.py                    # Main Streamlit app entry point
+├── myntra.ipynb              # Jupyter notebook for development/testing
+├── data.csv                  # Sample scraped data
+├── requirements.txt          # Python dependencies
+├── setup.py                  # Setup for packaging (if needed)
+├── README.md                 # Project documentation
+├── .gitignore                # Git ignore rules
 
 
+## 🛠️ Tech Stack
+Python 3.10
+
+Streamlit
+
+MongoDB Atlas
+
+Pandas
+
+PyMongo
+
+BeautifulSoup / Scrapy (if used for scraping)
+
+
+## 🙋‍♂️ Author
+Shubham Chaurasiya
+📧 xshubhamchaurasiya@gmail.com
+🔗 www.linkedin.com/in/chrsshubh
 
 ```bash
 
