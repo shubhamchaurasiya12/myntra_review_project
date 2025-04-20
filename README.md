@@ -83,7 +83,7 @@ Myntra_Scrapper_Project/
 -> MongoDB Atlas
 -> Pandas
 -> PyMongo
--> BeautifulSoup / Scrapy (if used for scraping)
+-> BeautifulSoup 
 ```
 ---
 
