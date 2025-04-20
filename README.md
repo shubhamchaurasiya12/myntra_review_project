@@ -77,18 +77,14 @@ Myntra_Scrapper_Project/
 ---
 
 ## 🛠️ Tech Stack
-Python 3.10
-
-Streamlit
-
-MongoDB Atlas
-
-Pandas
-
-PyMongo
-
-BeautifulSoup / Scrapy (if used for scraping)
-
+```bash
+-> Python 3.10
+-> Streamlit
+-> MongoDB Atlas
+-> Pandas
+-> PyMongo
+-> BeautifulSoup / Scrapy (if used for scraping)
+```
 ---
 
 ## 🙋‍♂️ Author
