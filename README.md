@@ -15,24 +15,26 @@ This is a Streamlit web application that allows users to scrape product reviews 
 
 ## 🚀 Installation
 ### 1. Clone the repository
-
+```bash
 git clone https://github.com/your-username/myntra-review-scraper.git
 cd myntra-review-scraper
+```
 
 ### 2. Create a Virtual Environment
-
+```bash
 conda create -n myntra_scrapper python=3.10
 conda activate myntra_scrapper
-
+```
 ### 3. Install dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## ⚙️ Configuration
 ### 🔐 MongoDB Atlas Setup
-Update the connection string in mongo_operation.py: 
+Update the connection string in mongo_operation.py:
+```bash
 from pymongo import MongoClient
 import certifi
 
@@ -40,15 +42,16 @@ self.client = MongoClient(
     "your-mongodb+srv-url",
     tlsCAFile=certifi.where()
 )
-
+```
 Or load the MongoDB URL from .env using python-dotenv.
 
 ---
 
 ## ▶️ Running the App
+```bash
 streamlit run app.py
 (in terminal)
-
+```
 This will launch the web app in your browser.
 
 ---
@@ -93,7 +96,6 @@ Shubham Chaurasiya
 📧 xshubhamchaurasiya@gmail.com
 🔗 www.linkedin.com/in/chrsshubh
 
-```bash
 
 
 
