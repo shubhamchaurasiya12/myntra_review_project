@@ -14,10 +14,14 @@ This is a Streamlit web application that allows users to scrape product reviews 
 ---
 
 ## 🚀 Installation
-
+### 1. Clone the repository
+### 2. Create Environment
+```bash
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/myntra-review-scraper.git
 cd myntra-review-scraper
 
-#Create Environment
+### 1. Clone the repository
+```bash
+
