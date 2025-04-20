@@ -48,7 +48,23 @@ streamlit run app.py
 This will launch the web app in your browser.
 
 ## 📁 Project Structure
-<pre> ```bash Myntra_Scrapper_Project/ │ ├── src/ # Core Python modules (MongoDB IO, constants, exception handling) ├── pages/ # Streamlit multipage app components ├── templates/ # HTML templates (if any) ├── static/css/ # Custom CSS for Streamlit styling │ ├── app.py # Main Streamlit app entry point ├── myntra.ipynb # Jupyter notebook for development/testing ├── data.csv # Sample scraped data ├── requirements.txt # Python dependencies ├── setup.py # Setup for packaging (if needed) ├── README.md # Project documentation ├── .gitignore # Git ignore rules ``` </pre>
+```bash
+Myntra_Scrapper_Project/
+│
+├── src/                      # Core Python modules (MongoDB IO, constants, exception handling)
+├── pages/                    # Streamlit multipage app components
+├── templates/                # HTML templates (if any)
+├── static/css/               # Custom CSS for Streamlit styling
+│
+├── app.py                    # Main Streamlit app entry point
+├── myntra.ipynb              # Jupyter notebook for development/testing
+├── data.csv                  # Sample scraped data
+├── requirements.txt          # Python dependencies
+├── setup.py                  # Setup for packaging (if needed)
+├── README.md                 # Project documentation
+├── .gitignore                # Git ignore rules
+```
+
 
 
 ## 🛠️ Tech Stack
